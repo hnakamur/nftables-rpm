@@ -1,7 +1,7 @@
 #global snapdate 20140903
 
 Name:           nftables
-Version:        0.6
+Version:        0.7
 #Release:        0.1.%{snapdate}git%{?dist}
 Release:        1%{?dist}
 # Upstream released a 0.100 version, then 0.4. Need Epoch to get back on track.
@@ -69,6 +69,9 @@ cp -a %{SOURCE2} $RPM_BUILD_ROOT/%{_sysconfdir}/sysconfig/
 %{_unitdir}/nftables.service
 
 %changelog
+* Tue Jul 11 2017 Hiroaki Nakamura <hnakamur@gmail.com> - 0.6-1
+- Update to 0.7.
+
 * Thu Jun 02 2016 Kevin Fenzi <kevin@scrye.com> - 0.6-1
 - Update to 0.6.
 
