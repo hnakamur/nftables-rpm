@@ -21,10 +21,10 @@ Source2:        nftables.conf
 #BuildRequires: libtool
 BuildRequires: flex
 BuildRequires: bison
-BuildRequires: libmnl-devel
+BuildRequires: libmnl-devel >= 1.0.3
 BuildRequires: gmp-devel
 BuildRequires: readline-devel
-BuildRequires: libnftnl-devel
+BuildRequires: libnftnl-devel >= 1.0.7
 BuildRequires: docbook2X
 BuildRequires: systemd
 
